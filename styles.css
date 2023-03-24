@@ -1,0 +1,142 @@
+/* Add a black background color to the top navigation */
+
+body {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.topnav {
+  overflow: hidden;
+  padding: 0px 100px 0px 100px;
+}
+
+
+
+.topnav h1 {
+  font-family: "Poppins", sans-serif;
+  float: left;
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  padding: 20px 20px 0 00px;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: "Poppins", sans-serif;
+  float: left;
+  color: #596068;
+  text-align: center;
+  padding: 34px 30px 14px 30px;
+  text-decoration: none;
+
+font-style: normal;
+font-weight: 400;
+font-size: 20.5px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #000;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #000;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  padding-top: 15px;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 650;
+  font-size: 64px;
+
+  color: #000000;
+}
+
+.hola {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px 40px 100px;
+  }
+
+.hola p {
+  float: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  padding-right: 200px;
+}
+
+.hola img {
+  float: right;
+  width: 346px;
+  height: 344px;
+  border-radius: 172px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    width: 2000px;
+    height: 600px;
+    position: relative;
+    background: white;/*#fbf6f6*/
+    display: flex;
+    overflow: hidden;
+}
+
+.slide{
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    animation: slideshow 35s linear infinite;
+}
+
+.slide img {
+    height: 400px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 15px;
+}
+
+.travel h2{
+    padding: 0 100px 0px 100px;
+}
+
+.travel{
+    padding: 40px 0 0 0;
+}
+
+.travel p{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  padding: 0 100px 40px 120px;
+}
+
+@keyframes slideshow {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-100%);}
+}

@@ -24,7 +24,57 @@ height: 400px;
 margin: 20px 20px 20px 20px;
 background: green;
 border-width: 0px;
-border-radius: 20px;
+border-radius: 25px;
+
+font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+
 }
+
+.subtitle{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.subtitle1{
+    color: #000000;
+}
+
+.pic{
+    height: 60px;
+}
+
+.pic2{
+    height: 60px;
+}
+
+.pic4{
+    height: 120px;
+}
+
+.hbutton1{
+    color: white;
+    background: linear-gradient(26.18deg, #E31C64 21.62%, #FFA24D 66.06%);
+}
+
+.hbutton2{
+    background-color: #DBF048;
+}
+
+.hbutton3{
+    background-color: white;
+    border-width: 8px;
+    border-color: #3C3C3C;
+}
+
+.hbutton4{
+    color: white;
+    background-color: #FF4667;
+    border-width: 0px;
+}
+
 
 

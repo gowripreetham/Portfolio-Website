@@ -1,4 +1,4 @@
-h2{
+h2 {
   align-items: center;
   justify-content: center;
   padding: 0px 100px 0px 100px;
@@ -12,69 +12,64 @@ h2{
   color: #000000;
 }
 
-
-
-.rowofbuttons{
-    padding: 0 100px 0 100px;
+.rowofbuttons {
+  padding: 0 100px 0 100px;
 }
 
-.button{
-width: 350px;
-height: 400px;
-margin: 20px 20px 20px 20px;
-background: green;
-border-width: 0px;
-border-radius: 25px;
+.button {
+  cursor: pointer;
+  width: 350px;
+  height: 400px;
+  margin: 20px 20px 20px 20px;
+  background: green;
+  border-width: 0px;
+  border-radius: 25px;
 
-font-family: "Poppins";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
-
 }
 
-.subtitle{
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
+.subtitle {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.subtitle1{
-    color: #000000;
+.subtitle1 {
+  color: #000000;
 }
 
-.pic{
-    height: 60px;
+.pic {
+  height: 60px;
 }
 
-.pic2{
-    height: 60px;
+.pic2 {
+  height: 60px;
 }
 
-.pic4{
-    height: 120px;
+.pic4 {
+  height: 120px;
 }
 
-.hbutton1{
-    color: white;
-    background: linear-gradient(26.18deg, #E31C64 21.62%, #FFA24D 66.06%);
+.hbutton1 {
+  color: white;
+  background: linear-gradient(26.18deg, #e31c64 21.62%, #ffa24d 66.06%);
 }
 
-.hbutton2{
-    background-color: #DBF048;
+.hbutton2 {
+  background-color: #dbf048;
 }
 
-.hbutton3{
-    background-color: white;
-    border-width: 8px;
-    border-color: #3C3C3C;
+.hbutton3 {
+  background-color: white;
+  border-width: 8px;
+  border-color: #3c3c3c;
 }
 
-.hbutton4{
-    color: white;
-    background-color: #FF4667;
-    border-width: 0px;
+.hbutton4 {
+  color: white;
+  background-color: #ff4667;
+  border-width: 0px;
 }
-
-
-
